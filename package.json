@@ -1,0 +1,27 @@
+{
+  "name": "maze-generation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/Main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notEave/maze-generation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notEave/maze-generation/issues"
+  },
+  "homepage": "https://github.com/notEave/maze-generation#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "browserify": "^14.3.0",
+    "typescript": "^2.3.3"
+  }
+}
