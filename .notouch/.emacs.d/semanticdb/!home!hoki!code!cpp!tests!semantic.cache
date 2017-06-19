@@ -1,0 +1,132 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("cstdio" include (:system-flag t) nil [1 18])
+            ("swap" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable
+                       (:reference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [30 37])
+                    ("y" variable
+                       (:reference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [38 45]))                  
+                :type "void")
+                nil [20 46])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [57 62]))                  
+                :type "int")
+                nil [48 508])
+            ("swap" function
+               (:arguments 
+                  ( ("x" variable
+                       (:reference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [520 527])
+                    ("y" variable
+                       (:reference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [528 535]))                  
+                :type "void")
+                nil [510 571]))          
+      :file "pointers-refs.cpp"
+      :pointmax 572
+      :fsize 571
+      :lastmodtime '(22853 37464 952850 567000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ctime" include (:system-flag t) nil [1 17])
+            ("cstdio" include (:system-flag t) nil [18 35])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [37 57])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [68 73]))                  
+                :type "int")
+                nil [59 334])
+            ("printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::clock" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [318 330]))                  
+                :type "int")
+                nil [288 332]))          
+      :file "time.cpp"
+      :pointmax 335
+      :fsize 334
+      :lastmodtime '(22853 48647 232183 507000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [22 42])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [53 58]))                  
+                :type "int")
+                nil [44 154]))          
+      :file "io.cpp"
+      :pointmax 155
+      :fsize 154
+      :lastmodtime '(22853 49087 259366 262000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("cstdio" include (:system-flag t) nil [1 18])
+            ("Box" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [32 40])
+                    ("width" variable (:type "double") (reparse-symbol classsubparts) [42 55])
+                    ("height" variable (:type "double") (reparse-symbol classsubparts) [57 71])
+                    ("public" label nil (reparse-symbol classsubparts) [72 79])
+                    ("getWidth" function
+                       (:arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [97 102]))                          
+                        :type "double")
+                        (reparse-symbol classsubparts) [81 131])
+                    ("getHeight" function
+                       (:arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [151 156]))                          
+                        :type "double")
+                        (reparse-symbol classsubparts) [134 186])
+                    ("setWidth" function
+                       (:arguments 
+                          ( ("width" variable (:type "double") (reparse-symbol arg-sub-list) [203 216]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [189 246])
+                    ("setHeight" function
+                       (:arguments 
+                          ( ("height" variable (:type "double") (reparse-symbol arg-sub-list) [264 278]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [249 310]))                  
+                :type "class")
+                nil [20 313])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [324 329]))                  
+                :type "int")
+                nil [315 441]))          
+      :file "class.cpp"
+      :pointmax 443
+      :fsize 442
+      :lastmodtime '(22853 49763 680401 219000)
+      :unmatched-syntax nil))
+  :file "!home!hoki!code!cpp!tests!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
